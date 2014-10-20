@@ -1,0 +1,37 @@
+{
+  "name": "palo",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trevorparscal/node-palo.git"
+  },
+  "main": "lib/Palo.js",
+  "scripts": {
+    "pretest": "node --harmony `which gulp` pretest",
+    "test": "NODE_ENV=testing node --harmony `which gulp` test"
+  },
+  "engines": {
+    "node": ">=0.11.9"
+  },
+  "dependencies": {
+    "autoprefixer-core": "^3.1.2",
+    "ay": "^0.1.0",
+    "co": "^3.1.0",
+    "co-fs": "^1.2.0",
+    "co-glob": "0.0.2",
+    "cssjanus": "^1.1.0",
+    "cssmin": "^0.4.2",
+    "less": "^1.7.5",
+    "oojs": "^1.1.1",
+    "thunkify": "^2.1.2",
+    "uglify-js": "^2.4.15"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-exit": "^0.0.2",
+    "gulp-jscs": "^1.1.2",
+    "gulp-jshint": "^1.8.5",
+    "gulp-mocha": "^1.1.0",
+    "jshint-stylish": "^1.0.0"
+  }
+}
